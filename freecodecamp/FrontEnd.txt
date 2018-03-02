@@ -1,0 +1,20 @@
+- All HTMl elements are rectangles.
+- CSS is the <style> element in HTML.
+  - You can create your own classes, IDs, or style an html element such as the <body> directly *even if you don't declare <body></body>.
+  - You can also <link> to an external CSS file.
+  - Overriding CSS classes
+    - If an element has two classes that override each other, the class defined at the bottom will override the one defined closer to the top.
+    - IDs override CSS classes altogether even at the top of your <style> element.
+    - If you use a 'style="color: green"' in an <h1> declaration, this overrides both IDs and classes.
+    - A last resort is using the keyword "!important". This can be added to a CSS class in the case where you are using an external CSS library but you want your local definitions to override.
+- Margins and Padding "Clockwise Notation"
+  - padding: top right bottom left
+  - e.g. margin: 40px 10px 10px 20px;
+- Colors
+  - Hex: 3 or 6 digits
+  - RGB
+  - using words such as "red", "green"
+- Bootstrap... many useful CSS classes already defined for you.
+  - Rows: 12 column elements wide
+- Font Awesome... many useful icons available for you. Just add a class to the original <i> element for italic.
+
