@@ -1,3 +1,5 @@
+Notes from the Front End Certificate 
+
 - All HTMl elements are rectangles.
 - CSS is the <style> element in HTML.
   - You can create your own classes, IDs, or style an html element such as the <body> directly *even if you don't declare <body></body>.
@@ -17,4 +19,8 @@
 - Bootstrap... many useful CSS classes already defined for you.
   - Rows: 12 column elements wide
 - Font Awesome... many useful icons available for you. Just add a class to the original <i> element for italic.
-
+- jQuery: allows you to set up "targets" on your HTML elements so they can be manipulated later.
+  - Essentially, you are setting up a skeleton framework where you can use jQuery to style it later.
+  - You can easily add or remove classes of an element, change CSS, etc.
+  - You can easily add Javascript functions by importing an eternal library and simple adding classes to an HTML element.
+  - You can even change the HTML markup itself, remove HTML elements, move HTML elements to a different <div>, copy elements, 
