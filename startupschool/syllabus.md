@@ -12,6 +12,12 @@
 - Utilize the deals!
 
 # Group Office Hours
+- Every company discusses:
+-- Introduce self with company 1-liner to remind everyone what you do
+-- Goals for last week, what goals were met and why or why not
+-- Biggest obstacle or problem that they group can help with
+-- Each company gets 5-10 minutes depending on how many people show up for office hours
+
 - Main goal: discuss topics with your group
 -- Ask questions relevant to company, engage in other's discussions
 - All topics discussed are "off-the-record". Do not share information about anyone else's company.
