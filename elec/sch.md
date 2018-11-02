@@ -11,5 +11,7 @@
 3. ERC
 4. Clear annotation for entire schematic.
 5. Annotate entire schematic.
+6. Verify orientation of transistors on schematic matches the footprint used.
+
 9. Verify hierarchical blocks are not missing any pins.
   - Press (Alt+M) and check every sheet recursively.
