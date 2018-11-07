@@ -9,9 +9,13 @@
 1. Place hierarchical blocks in the main schematic. Do not place any wires, power symbols, or local labels.
 2. Group hierarchical blocks further into sheets based on how they will be powered. This allows power planes to be placed for specific groups and allows the autorouter (Freeroute) to route in a way that maintains a proper "star ground". Sometimes it does not make sense to place blocks in further nested hierarchical block to give them the same power net. In this case a specific power symbol or local label can be used.
 3. ERC
-4. Clear annotation for entire schematic.
-5. Annotate entire schematic.
-6. Verify orientation of transistors on schematic matches the footprint used.
-
+4. Assign footprints.
+  * KiField may be useful when changing footprint for all SMT passives.
+6. Verify transistor orientation on schematic matches footprint.
 9. Verify hierarchical blocks are not missing any pins.
   - Press (Alt+M) and check every sheet recursively.
+  - This would be a good script...
+4. Clear annotation for entire schematic.
+  - If you assign jacks references on PCB according to schematic, you should
+    be able to clear the annotation without problems.
+5. Annotate entire schematic.
