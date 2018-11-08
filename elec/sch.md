@@ -19,3 +19,4 @@
   - If you assign jacks references on PCB according to schematic, you should
     be able to clear the annotation without problems.
 5. Annotate entire schematic.
+6. Check new IC symbol against datasheet.
