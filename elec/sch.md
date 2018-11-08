@@ -11,8 +11,8 @@
 3. ERC
 4. Assign footprints.
   * KiField may be useful when changing footprint for all SMT passives.
-7. Check BJT & FET symbol matches datasheet.
-6. Check new IC symbol against datasheet.
+7. Check BJT & FET schematic symbol and PCB footprint matches datasheet.
+6. Check new IC schematic symbol and PCB footprint against datasheet.
 9. Verify hierarchical blocks are not missing any pins.
   - Press (Alt+M) and check every sheet recursively.
   - This would be a good script...
