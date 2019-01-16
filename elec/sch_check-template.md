@@ -1,4 +1,8 @@
 # Schematic Checklist
-[] Make list of types of transistors.
-   Verify correct orientation between symbol and footprint.
+## Blocks
 [] 
+
+## Verify
+[] Transistor orientation
+[] Floating wires (use 'no connect' flag)
+[] ERC
