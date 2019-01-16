@@ -11,11 +11,12 @@
 3. ERC
 4. Assign footprints.
   * KiField may be useful when changing footprint for all SMT passives.
-6. Verify transistor orientation on schematic matches footprint.
+7. Check BJT & FET schematic symbol and PCB footprint matches datasheet.
+6. Check new IC schematic symbol and PCB footprint against datasheet.
 9. Verify hierarchical blocks are not missing any pins.
   - Press (Alt+M) and check every sheet recursively.
   - This would be a good script...
-4. Clear annotation for entire schematic.
-  - If you assign jacks references on PCB according to schematic, you should
-    be able to clear the annotation without problems.
-5. Annotate entire schematic.
+5. Clear and re-annotate entire schematic.
+  - If __pre-annotate__ (for only jacks and knobs) and assign refs on PCB to match
+    SCH, you can re-annotate without problems.
+

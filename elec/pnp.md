@@ -1,4 +1,8 @@
 # Hand
+* notes:
+a. any mistakes here (shorts, missing connections) may be 
+   many minutes or hours afterwards with an oscilloscope
+ 
 * Stencil
 - Link to Youtube video
 www.youtube.com/watch?v=JWUJtmgh55M
