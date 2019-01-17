@@ -1,4 +1,18 @@
 # Schematic Checklist
-[] Make list of types of transistors.
-   Verify correct orientation between symbol and footprint.
+## Blocks
 [] 
+
+## ERC
+[] Transistor orientation
+[] No op-amps flipped
+[] Floating wires (use 'no connect' flag)
+[] ERC
+
+## Test Points
+[] Power
+[] CV
+[] Audio
+
+## Annotate
+[] Annotation: check each block with multi-unit parts (e.g. A,B,C,D,E)
+[] Annotation: cofirm knobs, jacks, LEDs on PCB
