@@ -1,33 +1,48 @@
 # Component PCB
-1. Place jacks. Rename according to natural annotation of schematic. This
-allows for the schematic to be re-annotated without problems.
-2. Lock jacks and pots and any other jumpers.
-2. Manually layout a hierarchical block ONCE. Use replicatelayout.py for other
-blocks.
-3. Place LED blocks first.
-4. Replicate and place blocks in order of signal path.
-   1. Capacitive touch
-   2. Audio
-   3. Everything else 
-6. Set up Net Classes.
-7. Power Planes:
+## Before Routing
+1. Set up net classes with the assistance of local labels in each block.
+2. Power planes
    * Ideal for autorouting:
      - 4 layer board:
        1: signal + power
        2: GND
        3: power
        4: signal
-
           OR
-
        1: signal + power
        2: power
        3: GND
        4: signal
-   ** With Freeroute, you can't designate which signals go to which
-      layer, so any high speed signals must be routed by hand.
+3. Labeling (silkscreen)
+   * jumpers, RED LINE, version number, board name
 
-## Placement (design for autoroute)
-1. If top layer routing is vertical, place ICs (SOIC, TSSOP, etc) with pads on
-   the sides. Then, bottom layer routing will be horizontal, and ICs can be
-   rotated with pads at the top and bottom.
+## First Time Eurorack Placement
+1. Place jacks, knobs, LEDs.
+   a. Open art PCB, component PCB, and component SCH.
+      * At this point in time, there should be no parts on the component PCB.
+   b. One at a time, click on any jack from the component PCB, identify the 
+      function from the component SCH and then copy x,y location from art PCB.
+      and paste locations from the art board.
+2. Place power connector, jumpers.
+3. Lock all components on board.
+
+## Placement Strategy ("design for autoroute")
+1. Place parts to minimize routing congestion.
+   * (e.g.) Routing on layer is horizontal:
+       - rotate SOIC,TSSOP,etc pads to top and bottom
+       - rotate passives parallel to routing direction
+
+## Rough Placement #1
+1. Place all ICs in order of signal path. Don't worry about any other parts.
+   * Rotate IC properly with regards to routing direction on that layer.
+2. If there is not much extra room, you may decrease the size of passives.
+   * If you decrease the size, re-do Rough Placement #1.
+
+## Rough Placement #2
+1. One at a time, for each block that can be hierarchically replicated,
+   do the placement, and replicate.
+   * It may be possible to steal pre-replicated blocks from other PCBs by
+     copying and pasting the block and matching the annotations.
+2. Re-place all blocks which were replicated.
+   * Remember to place __with__ the flow of routing.
+3. Rinse and repeat.
