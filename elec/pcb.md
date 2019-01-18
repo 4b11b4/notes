@@ -46,3 +46,9 @@
 2. Re-place all blocks which were replicated.
    * Remember to place __with__ the flow of routing.
 3. Rinse and repeat.
+
+## DRC
+1. Satisfy the DRC complaints about component keepouts, etc.
+
+## Freeroute
+1. See [freeroute.md] for how to setup freeroute.

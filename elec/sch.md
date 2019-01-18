@@ -1,6 +1,10 @@
-# Schematic Design Procedure
+# Schematic Design Procedure ("design for autoroute")
 ## General Notes
 * Design in a way to increase amount of things that can be autorouted. i.e. Grouping hierarchical sheets that will share power. e.g. All opamps dealing with CV logic share the same power net whereas opamps for audio share a different power net. However, sometimes grouping does not make sense for the "flow" of a schematic. In this case, creating a local label (KiCad) for the power net is sufficient.
+  ** Do not want to make giant blocks, but more replication is better.
+  *** How much goes in a single schematic page may depend on how many times
+      you will need to replicate it.
+## 
 
 ## Procedure
 * If followed, this procedure reduces time spent designing a schematic in the immediate and exponential future.
