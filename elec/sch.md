@@ -4,7 +4,6 @@
   ** Do not want to make giant blocks, but more replication is better.
   *** How much goes in a single schematic page may depend on how many times
       you will need to replicate it.
-## 
 
 ## Procedure
 * If followed, this procedure reduces time spent designing a schematic in the immediate and exponential future.
