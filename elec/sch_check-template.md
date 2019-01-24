@@ -1,10 +1,11 @@
-# Schematic Checklist
+# Schematic
 ## Blocks
-[] 
+[] Verify all pins are imported.
+[] Verify all pins named 
 
 ## ERC
 [] Transistor orientation
-[] No op-amps flipped
+[] Op-amps orientation 
 [] Floating wires (use 'no connect' flag)
 [] ERC
 

@@ -9,7 +9,8 @@
 * If followed, this procedure reduces time spent designing a schematic in the immediate and exponential future.
 
 1. Create a copy of the template project. This includes common blocks to get started.
-1. Place hierarchical blocks in the main schematic. Do not place any wires, power symbols, or local labels.
+1. Place hierarchical blocks in the main schematic.
+
 2. Group hierarchical blocks further into sheets based on how they will be powered. This allows power planes to be placed for specific groups and allows the autorouter (Freeroute) to route in a way that maintains a proper "star ground". Sometimes it does not make sense to place blocks in further nested hierarchical block to give them the same power net. In this case a specific power symbol or local label can be used.
 3. ERC
 4. Assign footprints.
