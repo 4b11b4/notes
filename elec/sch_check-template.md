@@ -17,3 +17,8 @@
 ## Annotate
 [] Annotation: check each block with multi-unit parts (e.g. A,B,C,D,E)
 [] Annotation: cofirm knobs, jacks, LEDs on PCB
+
+## BoM
+[] Go through all parts in KiField to verify tolerance, sub, etc
+[] Run "gen-description.py"
+[] Export via Eeschema
