@@ -17,6 +17,7 @@
   * KiField may be useful when changing footprint for all SMT passives.
 7. Check BJT & FET schematic symbol and PCB footprint matches datasheet.
 6. Check new IC schematic symbol and PCB footprint against datasheet.
+8. Check IC units (A,B,etc)
 9. Verify hierarchical blocks are not missing any pins.
   - Press (Alt+M) and check every sheet recursively.
   - This would be a good script...
