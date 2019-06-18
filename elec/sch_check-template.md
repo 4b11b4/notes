@@ -1,10 +1,17 @@
 # Schematic
+
+## Power
+[] For every rail:
+  [] Solder jumper
+  [] LPF (optional)
+
 ## Blocks
 [] Verify all pins are imported.
-[] Verify all pins named 
+[] Verify all pin names match.
 
 ## ERC
 [] Transistor orientation
+  [] Transistor SMT footprint pinout from datasheet matches symbol.
 [] Op-amps orientation 
 [] Floating wires (use 'no connect' flag)
 [] ERC
