@@ -2,17 +2,18 @@
 
 ## Power
 [] For every rail:
-  [] Solder jumper
+  [] Solder jumper or 0 ohm
   [] LPF (optional)
 
 ## Blocks
 [] Verify all pins are imported.
 [] Verify all pin names match.
+[] Verify all local nets go somewhere (i.e. Ctrl+F each net).
 
 ## ERC
 [] Transistor orientation
   [] Transistor SMT footprint pinout from datasheet matches symbol.
-[] Op-amps orientation 
+[] Op-amp orientation 
 [] Floating wires (use 'no connect' flag)
 [] ERC
 
