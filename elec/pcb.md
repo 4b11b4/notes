@@ -63,6 +63,9 @@
 
 ## Post-route Manual Cleanup
 1. Clean up:
-   * traces coming out of QFNs, vias underneath
+   * QFNs: no vias underneath body, no traces routed between pins underneath
+     body (you want all traces to run away from the QFN to avoid uneven
+     reflow)
    * prevent traces being routed under ICs (TSSOPs, SOICs, etc)
-     - Some designs may be too dense to prevent this.
+     - Some designs may be too dense to prevent this. There is a lot of space
+       underneath.
