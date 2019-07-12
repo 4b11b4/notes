@@ -52,3 +52,16 @@
 
 ## Freeroute
 1. See [freeroute.md] for how to setup freeroute.
+2. Attempt routing.
+3. You can consider the route a failure if at the start of each pass you
+   still have close to the same number of unrouted nets. 
+4. If the autorouter cannot complete, but there are only 10 unrouted nets left,
+   you can accept the route and finish it yourself.
+5. If the router is a failure, save the session anyways and import into PcbNew.
+6. Examine the routing and identify where it is congested. It will be obvious.
+7. Spread out any parts in congested areas and go back to step 2.
+
+## Post-route Manual Cleanup
+1. Clean up:
+   * traces coming out of QFNs
+   * prevent traces being routed under ICs (TSSOPs, SOICs, etc)
