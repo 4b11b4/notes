@@ -63,5 +63,6 @@
 
 ## Post-route Manual Cleanup
 1. Clean up:
-   * traces coming out of QFNs
+   * traces coming out of QFNs, vias underneath
    * prevent traces being routed under ICs (TSSOPs, SOICs, etc)
+     - Some designs may be too dense to prevent this.
