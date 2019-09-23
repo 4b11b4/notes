@@ -26,6 +26,7 @@
 ## Schematic Blocks
 [] Verify all pins are imported
 [] Verify all pin names match
+[] Verify no local labels are named the same as hierarchical labels 
 
 ## Test Points
 [] Power
