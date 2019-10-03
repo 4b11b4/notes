@@ -6,3 +6,8 @@
   - The "one-row-per-what" is known as the "Table Key".
     - The key may be made up of two attributes (columns).
   - A single table may have multiple keys, but one must be the primary key.
+
+#lec2
+- Foreign keys are usually keys, but can be any attribute.
+- Set of allowable values for an attribute is the "domain".
+  - e.g. integers 1-5, two strings "checkings" & "savings"
